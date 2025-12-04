@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hire Me — Isuru_Sampath</title>
+  <meta name="description" content="Services and packages for web development, hosting, and maintenance." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="/">Isuru_Sampath</a>
+      <nav class="nav">
+        <a href="./hire-me.html" class="active">Hire Me</a>
+        <a href="https://github.com/isuru709" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:isurudananjaya907@gmail.com">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <h1>Hire Me</h1>
+      <p>I offer end-to-end web development, managed hosting, and custom software for small and medium businesses.</p>
+
+      <h2>Services</h2>
+      <div class="services-grid">
+        <div class="card">
+          <h3>Web Development</h3>
+          <ul>
+            <li>Business websites (WordPress/Next.js)</li>
+            <li>E-commerce setup (WooCommerce/Shopify)</li>
+            <li>Performance & SEO optimization</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Web Hosting + Maintenance</h3>
+          <ul>
+            <li>SSL, backups, uptime monitoring</li>
+            <li>Updates & security hardening</li>
+            <li>CDN and caching configuration</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Custom Software</h3>
+          <ul>
+            <li>Custom dashboards & APIs</li>
+            <li>Automation scripts</li>
+            <li>Integrations (payment, email, analytics)</li>
+          </ul>
+        </div>
+      </div>
+
+      <h2>Packages</h2>
+      <div class="pricing-grid">
+        <div class="price-card">
+          <h3>Starter</h3>
+          <div class="price">$250</div>
+          <ul>
+            <li>One-page or simple site</li>
+            <li>Responsive design</li>
+            <li>Basic SEO setup</li>
+            <li>SSL + deployment</li>
+          </ul>
+          <a class="btn primary" href="#contact">Get Started</a>
+        </div>
+        <div class="price-card featured">
+          <h3>Business</h3>
+          <div class="price">$600</div>
+          <ul>
+            <li>5–7 pages or small e-commerce</li>
+            <li>Performance optimization (CWV 90+)</li>
+            <li>Contact forms + integrations</li>
+            <li>Basic analytics + report</li>
+          </ul>
+          <a class="btn primary" href="#contact">Get Started</a>
+        </div>
+        <div class="price-card">
+          <h3>Premium</h3>
+          <div class="price">$1200</div>
+          <ul>
+            <li>Custom features/components</li>
+            <li>Advanced SEO + schema</li>
+            <li>CDN, caching, security</li>
+            <li>Documentation & training</li>
+          </ul>
+          <a class="btn primary" href="#contact">Get Started</a>
+        </div>
+      </div>
+
+      <h2 id="contact">Contact</h2>
+      <div class="contact-grid">
+        <form id="contact-form" class="card form-card">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" required />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+          <div class="form-row">
+            <label for="message">Project details</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Describe your website or software needs"></textarea>
+          </div>
+          <button type="submit" class="btn primary">Send</button>
+          <p id="form-status" class="form-status"></p>
+        </form>
+
+        <div class="card contact-card">
+          <h3>Quick Contact</h3>
+          <p>Email: <a href="mailto:isurudananjaya907@gmail.com">isurudananjaya907@gmail.com</a></p>
+          <p>WhatsApp: <a id="whatsapp-link" href="#" target="_blank" rel="noopener">Chat on WhatsApp</a></p>
+          <p>GitHub: <a href="https://github.com/isuru709" target="_blank" rel="noopener">github.com/isuru709</a></p>
+          <p>Location: Sri Lanka</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div>
+        <strong>Isuru_Sampath</strong><br />
+        Web Developer & Web Hoster — Sri Lanka
+      </div>
+      <div class="footer-links">
+        <a href="./hire-me.html">Hire Me</a>
+        <a href="mailto:isurudananjaya907@gmail.com">isurudananjaya907@gmail.com</a>
+        <a href="https://github.com/isuru709" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
