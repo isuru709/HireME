@@ -6,9 +6,9 @@
     "problem": "Users needed an easy, unified VPN client to configure and connect via popular secure protocols.",
     "solution": "Built a VB.NET desktop client with profile management, protocol selection, and status feedback, leveraging OpenSSL for secure transport.",
     "result": "Simplified secure connectivity for non‑technical users; faster setup and reliable connections.",
-    "demo": "https://isuruhub.site",
+    "demo": "https://isuruhub.site/software/sl-net-vpn-client",
     "repo": "https://github.com/isuru709/SL-NET-By-Isuru-VPN-Client",
-    "caseStudy": "University OF Moratuwa-Networking",
+    "caseStudy": "https://isuruhub.site/case-studies/sl-net-vpn-client",
     "screenshot": "./assets/sl-net-vpn-client.png"
   },
   {
@@ -18,9 +18,9 @@
     "problem": "Inconsistent environments caused failures and slow performance for media downloads.",
     "solution": "Provided a guided VM environment and Java tools with LLVM components to ensure predictable downloads and updates.",
     "result": "Reliable downloads across systems; reduced environment issues and support workload.",
-    "demo": "https://yourdomain.com/demos/uni-downloader",
+    "demo": "https://uni.isuruhub.site:8443",
     "repo": "https://github.com/isuru709/Uni-Downloader-VM",
-    "caseStudy": "https://yourdomain.com/case-studies/uni-downloader",
+    "caseStudy": "https://isuruhub.site/case-studies/uni-downloader",
     "screenshot": "./assets/uni-downloader.png"
   },
   {
@@ -30,9 +30,9 @@
     "problem": "CPU‑only converters were too slow for large video workloads.",
     "solution": "Leveraged GPU encoding pipelines with an easy UI and preset management; batch processing support.",
     "result": "Large speedups vs CPU encoders; streamlined conversion workflow for end users.",
-    "demo": "https://yourdomain.com/demos/isuru-vc",
+    "demo": "https://isuruhub.site/software/isuru-vc",
     "repo": "https://github.com/isuru709/Isuru-s-VC",
-    "caseStudy": "https://yourdomain.com/case-studies/isuru-vc",
+    "caseStudy": "https://isuruhub.site/case-studies/isuru-vc",
     "screenshot": "./assets/isuru-vc.png"
   },
   {
@@ -42,9 +42,9 @@
     "problem": "Designers and students needed quick image conversions without complex tools.",
     "solution": "Built a simple VB.NET desktop app supporting common formats, batch conversion, and basic download helpers.",
     "result": "Faster image workflows; reduced reliance on heavy suites for simple tasks.",
-    "demo": "https://yourdomain.com/demos/isuru-ic",
+    "demo": "https://isuruhub.site/software/isuru-ic",
     "repo": "https://github.com/isuru709/Isuru-s-IC",
-    "caseStudy": "https://yourdomain.com/case-studies/isuru-ic",
+    "caseStudy": "https://isuruhub.site/case-studies/isuru-ic",
     "screenshot": "./assets/isuru-ic.png"
   },
   {
@@ -54,9 +54,9 @@
     "problem": "Users needed automated power actions for downloads, maintenance, and energy savings.",
     "solution": "Created a VB.NET UI to schedule and manage system actions with clear status and cancellation options.",
     "result": "Reduced idle power usage and improved convenience; simple automation for everyday tasks.",
-    "demo": "https://yourdomain.com/demos/shutdown-scheduler",
+    "demo": "https://isuruhub.site/software/shutdown-scheduler",
     "repo": "https://github.com/isuru709/Shutdown-Sheduler",
-    "caseStudy": "https://yourdomain.com/case-studies/shutdown-scheduler",
+    "caseStudy": "https://isuruhub.site/case-studies/shutdown-scheduler",
     "screenshot": "./assets/shutdown-scheduler.png"
   }
 ]
